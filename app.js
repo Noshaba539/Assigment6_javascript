@@ -599,9 +599,93 @@
 // var std=["Noshaba","kanwal","Mahnoor"];
 // var score=[489,380,390];
 // var tota_score=500;
-// p=score/tota_score*100;
-// document.write(std,score,p);
+// var p=[];
+// for (i=0;i<=2;i++){
+//     p.push((std[i/500])*100);
+//     document.write("score"+std[i]+"is"+"percentage"+p[i]+"%<br>")
 
+// }
+// var colors= ["red", "blue", "yellow"];
+// document.write("Original Values of Array Are: "+colors+"<br>");
+// // part A
+// var userchoice = prompt("Please enter a color name to add in the beginning of the array");
+// colors.unshift(userchoice);
+// document.write(colors);
+// // part B
+// var userchoice = prompt("Please enter a color name to add in the end of the array");
+// colors.push(userchoice);
+// document.write(colors);
+// // part C
+// colors.unshift("black, purple");
+// document.write(colors);
+// // part D
+// colors.shift(0);
+// document.write(colors);
+// // part E
+// colors.pop();
+// document.write(colors);
+// // part F
+// var index = +prompt("enter a index number where you want to add");
+// var userchoice = prompt("Please enter a color name to add at the desired index");
+// colors.splice(index,0,userchoice)
+// document.write(colors);
+// // part G
+// var index = +prompt("enter a index number to delete");
+// var count = prompt("how many items you want to delete");
+// colors.splice(index, count,);
+// document.write(colors);
+
+
+// var studentScore =[320,230,480,120];
+//     document.write("Scores of students: "+studentScore+"<br>");
+//     studentScore.sort();
+//     document.write("Ordered scores of students: "+studentScore);
+//     var cities = ["Karachi","Islamabad","Multan","Peshawar","Gilgit"];
+//     document.write("Cities list: "+cities+"<br>");
+//     var cities2 = cities.slice(0,3);
+//     document.write("Selected cities list: "+cities2);
+
+
+//     var arr = ["This", "is", "my", "cat"];
+//     arr2=arr.join(" ");
+//     document.write("Array: <br>"+arr+"<br>");
+//     document.write("String: <br>"+arr2);
+
+
+
+//     var acc =[];
+//     acc.push("keyboard");
+//     acc.push("mouse");
+//     acc.push("printer");
+//     acc.push("monitor");    
+//     document.write("Devices<br>"+acc+"<br><br>");
+//     for (var i = 0; i <= 3; i++) {
+//         document.write("Out<br>");
+//         document.write(acc[0]);
+//         acc.shift();
+//         document.write("<br>");
+//     }
+//     var acc =[];
+//     acc.push("keyboard");
+//     acc.push("mouse");
+//     acc.push("printer");
+//     acc.push("monitor");    
+//     document.write("Devices<br>"+acc+"<br><br>");
+//     for (var i = 0; i <= 3; i++) {
+//         document.write("Out<br>");
+//         document.write(acc[acc.length-1]);
+//         acc.pop();
+//         document.write("<br>");
+//     }
+
+
+
+//     var phoneCompanies = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// document.write("<select>");
+// for (var i = 0; i <= phoneCompanies.length-1; i++) {
+//     document.write("<option>"+phoneCompanies[i]+"</option>");
+// }
+// document.write("</select>");
 
 // Chapter#17to20
 
